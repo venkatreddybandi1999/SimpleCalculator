@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <h2>Simple Calculator</h2>
+      </div>
+    </header>
+    <div class="container">
+      <div class="header-image">
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/tip-calculator-img.png"
+          alt=""
+        />
+      </div>
+      <div class="aside">
+          <div class="input-values">
+            <div class="input-value">
+              <p>Number-1:</p>
+              <input type="text" class="user-input-1" id="input-1" />
+            </div>
+            <div class="input-value">
+              <p>Number-2:</p>
+              <input type="text" class="user-input-1" id="input-2" />
+            </div>
+            <div class="input-value">
+              <p>Operator(+,-,*,/,%)</p>
+              <input type="text" class="user-input-1" id="input-3" />
+            </div>
+            <div class="input-value">
+                <p>Result:</p>
+                <input type="text" class="user-input-1" id="result" />
+              </div>
+            <div>
+              <p class="error" id="error"></p>
+            </div>
+            <div class="submit-buttons">
+              <div class="button">
+                <button id="calculate">Calculate</button>
+              </div>
+              <div class="button">
+                <button id="reset">Reset</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
